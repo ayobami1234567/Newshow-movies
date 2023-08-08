@@ -1,0 +1,54 @@
+.popular-container {
+  margin: 2rem 0;
+}
+
+.popular-container h1 {
+  /* font-size: 2rem; */
+  margin-top: 2rem;
+  font-size: 32px;
+}
+
+.card-gta {
+  margin: 2rem 0;
+}
+
+.container-gta {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.popular-container h1 a {
+  color: #505581;
+}
+
+.popular-card {
+  width: 190px;
+  cursor: pointer;
+}
+
+.popular-card p {
+  font-size: 14px;
+}
+
+.popular-card span {
+  font-size: 14px;
+}
+
+.popular-card img {
+  width: 180px;
+  height: 270px;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+  .popular-container {
+    padding-left: 2rem;
+  }
+
+  .popular-card img {
+    height: 270px;
+  }
+
+}

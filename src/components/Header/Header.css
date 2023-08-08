@@ -1,0 +1,140 @@
+.header {
+  /* background-color: #000; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* flex-shrink: 1; */
+  width: 100%;
+  height: 100px;
+  width: 100%;
+  background-color: #fff;
+  padding: 0 30px;
+  white-space: nowrap;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header .left-nav {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 1.5rem;
+}
+
+
+.search-box {
+  position: relative;
+  height: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+  padding-left: 16px;
+  border-radius: 4px;
+}
+
+.search-box input {
+  width: 404px;
+  height: 50px;
+  border: none;
+  border-radius: 40px;
+  background-color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  /* padding: 0 20px 0 20px; */
+  color: #D3D4D8;
+  outline: none;
+  border: 2px solid #A1A4B1;
+}
+
+.search-box img {
+  position: absolute;
+  right: 0px;
+  bottom: 10px;
+  font-size: 19px;
+  /* color: #888; */
+  padding: 0px 10px;
+  cursor: pointer;
+}
+
+
+.right-nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+}
+
+.right-nav span {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #D3D4D8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #D3D4D8;
+  border-radius: 50px;
+}
+
+.right-nav .light {
+  margin-right: 1rem;
+}
+
+.right-nav .notification {
+  margin-right: 1rem;
+}
+
+.profile-menu {
+  padding: 10px;
+}
+
+.drop-menu {
+  width: 5rem;
+}
+
+.auth-path ul {
+  display: flex;
+  align-items: center;
+}
+
+.auth-path ul li {
+  margin-right: 1rem;
+  padding: 0.650rem 2rem;
+  border-radius: 10px;
+}
+
+.auth-path ul li:first-child {
+  background-color: transparent;
+  border: 2px solid #1BB954;
+}
+
+.auth-path ul li:first-child a {
+  color: #E50914;
+}
+
+.auth-path ul li:nth-child(2) {
+  background: #1BB954;
+
+}
+
+.auth-path ul li a {
+  color: #fff;
+}
+
+@media (max-width: 1000px) {
+  .search-box {
+    display: none;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  .left-side {
+    display: none;
+  }
+
+}

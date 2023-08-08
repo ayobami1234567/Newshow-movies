@@ -1,0 +1,7 @@
+export { default as Home } from "../pages/Home"
+export { default as Movies } from "../pages/Movies"
+export { default as Player } from "../pages/Player"
+export { default as Series } from "../pages/Series"
+export { default as SeriesDetails } from "../pages/SeriesDetails"
+export { default as SingleItemDetails } from "../pages/SingleItemDetail"
+export { default as Singles } from "../pages/Singles"

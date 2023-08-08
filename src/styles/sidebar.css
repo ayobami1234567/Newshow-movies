@@ -1,0 +1,33 @@
+.icons {
+  display: block;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+  border-radius: 1rem;
+  height: 5rem;
+  /* padding: 0rem 3rem; */
+  padding-left: 1rem;
+  font-size: 2rem;
+  padding-right: 4rem;
+}
+
+.side-btn {
+  position: absolute;
+  height: 45px;
+  width: 45px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #dbdde6;
+
+}
+
+.side-btn .link-icon {
+  font-size: 1.5rem;
+  color: #1BB954;
+
+}
+
+.side-btn:hover {
+  background-color: #93eab3;
+}
