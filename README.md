@@ -1,2 +1,2 @@
-# A Movies app with APL connection
-# by TechCodebro 
+# A Movies app with an API
+# By TechCodebro 
